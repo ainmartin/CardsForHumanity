@@ -1,0 +1,134 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin:0px;
+	padding:0px;
+	background-color: #2f2524;
+}
+.gameSpace {
+	width:1600px;
+	height:890px;
+	max-width:90%;
+	background-color: #e0e0d9;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+}
+.gameHeader {
+	width:100%;
+	height:50px;
+	background-color: #777777;
+	overflow:hidden;
+}
+.headerTitle {
+width: calc(100% - 610px);
+	float: left;
+	text-align:center;
+	color: white;
+	font-size:200%;
+	margin-left:auto;
+	margin-right:auto;
+	text-shadow: 1px 1px black;
+	font-family: Arial;
+	margin-top:7px;
+	z-index: 10;
+}
+.headerPlayerName {
+	font-family: Arial;width: 300px;color: white;float:left;margin-left: 10px; margin-top: 8px; font-size: 120%;
+}
+.headerThing {
+	width: 300px; height: 20px; float: right;
+}
+.gameField {
+	margin-top: 30px;
+	margin-left: 32px;
+	margin-right: 32px;
+	width:auto;
+	height:calc(100% - 70px);
+position:relative;
+}
+.gameFieldTop {
+	width:100%;
+	height: 235px;
+	margin-bottom:50px;
+}
+.questionCardSpot {
+	margin-left: 80px;
+	height:265px;
+	width: 270px;
+	float:left;
+}
+.answerCardsSpot {
+	max-width: 1100px;
+	overflow: hidden;
+}
+.cardBack {
+cursor:pointer;
+	width:190px;
+	height:225px;
+	background-color: white;
+	border-color: #898989;
+	border-right:3px solid #898989;
+	border-bottom:3px solid #898989;
+	overflow:hidden;
+	float:left;
+	margin-right: 23px;
+margin-bottom:20px;
+}
+.cardBackSelected {
+cursor:pointer;
+width:210px;
+	height:245px;
+	background-color: white;
+	border-color: #898989;
+	border-right:3px solid #898989;
+	border-bottom:3px solid #898989;
+	overflow:hidden;
+	float:left;
+	margin-right: 30px;
+position:relative;
+top:5px;
+margin-bottom:10px;
+}
+.deckCardBack {
+cursor:pointer;
+	width:190px;
+	height:225px;
+	background-color: white;
+	border-color: #898989;
+	border-right:3px solid #898989;
+	border-bottom:3px solid #898989;
+	overflow:hidden;
+	float:left;
+	margin-right: 10px;
+margin-bottom:10px;
+}
+.cardTextSpot {
+	font-family: Arial;
+	margin-left: 20px;
+	margin-top:20px;
+	margin-right: 15px;
+font-size: 160%;
+}
+.gameFieldBottom {
+  height: 235px;
+width:100%;
+position:absolute;
+bottom:70px;
+}
+ul {
+list-style-type: none;
+padding:0px;
+margin:0px;
+max-width:100%;
+}
+ul li {
+display:inline-block;
+position:relative;
+}
+.yourCardSpot {
+width: 220px;
+height: 255px;
+border: 2px solid black;
+margin-left: 65px;
+}
